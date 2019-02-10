@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/motorola/sdm660-common/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/motorola/sdm660-common/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
+    vendor/motorola/sdm660-common/proprietary/etc/motorola/mdmctbk/ctbk_val.cfg:system/etc/motorola/mdmctbk/ctbk_val.cfg \
     vendor/motorola/sdm660-common/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/motorola/sdm660-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/motorola/sdm660-common/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
