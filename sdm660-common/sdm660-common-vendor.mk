@@ -20,6 +20,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sdm660-common/proprietary/etc/motorola/mdmctbk/ctbk_val.cfg:system/etc/motorola/mdmctbk/ctbk_val.cfg \
     vendor/motorola/sdm660-common/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/motorola/sdm660-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/motorola/sdm660-common/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
+    vendor/motorola/sdm660-common/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/motorola/sdm660-common/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/motorola/sdm660-common/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/motorola/sdm660-common/proprietary/vendor/etc/permissions/com.motorola.motodisplay.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motodisplay.xml \
@@ -51,6 +53,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sdm660-common/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/motorola/sdm660-common/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
     vendor/motorola/sdm660-common/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
+    vendor/motorola/sdm660-common/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
+    vendor/motorola/sdm660-common/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
     vendor/motorola/sdm660-common/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/motorola/sdm660-common/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/motorola/sdm660-common/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
@@ -652,9 +656,11 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libloc_api_v02 \
     CNEService \
+    DMService \
     WfdService \
     ims \
     qcrilmsgtunnel \
+    SprintDM \
     QtiTelephonyService \
     TimeService \
     QPerformance \
