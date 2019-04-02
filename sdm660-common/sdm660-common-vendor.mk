@@ -21,6 +21,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sdm660-common/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/motorola/sdm660-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/motorola/sdm660-common/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
+    vendor/motorola/sdm660-common/proprietary/etc/permissions/com.motorola.motosignature.xml:system/etc/permissions/com.motorola.motosignature.xml \
+    vendor/motorola/sdm660-common/proprietary/etc/permissions/com.motorola.software.fmradioservice.xml:system/etc/permissions/com.motorola.software.fmradioservice.xml \
     vendor/motorola/sdm660-common/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/motorola/sdm660-common/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/motorola/sdm660-common/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
@@ -32,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sdm660-common/proprietary/vendor/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/telephonyservice.xml \
     vendor/motorola/sdm660-common/proprietary/vendor/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_VENDOR)/framework/QtiTelephonyServicelibrary.jar \
     vendor/motorola/sdm660-common/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    vendor/motorola/sdm660-common/proprietary/framework/com.motorola.motosignature.jar:system/framework/com.motorola.motosignature.jar \
     vendor/motorola/sdm660-common/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/motorola/sdm660-common/proprietary/framework/com.quicinc.cne.api-V1.1-java.jar:system/framework/com.quicinc.cne.api-V1.1-java.jar \
     vendor/motorola/sdm660-common/proprietary/framework/com.quicinc.cne.constants-V1.0-java.jar:system/framework/com.quicinc.cne.constants-V1.0-java.jar \
@@ -661,6 +664,9 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     SprintDM \
+    FMPlayer \
+    FMRadioService \
+    MotoSignatureApp \
     QtiTelephonyService \
     TimeService \
     QPerformance \
