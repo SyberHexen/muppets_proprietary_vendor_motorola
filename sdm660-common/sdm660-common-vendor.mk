@@ -23,6 +23,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sdm660-common/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
     vendor/motorola/sdm660-common/proprietary/etc/permissions/com.motorola.motosignature.xml:system/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/sdm660-common/proprietary/etc/permissions/com.motorola.software.fmradioservice.xml:system/etc/permissions/com.motorola.software.fmradioservice.xml \
+    vendor/motorola/sdm660-common/proprietary/etc/permissions/privapp-permissions-com.android.omadm.service.xml:system/etc/permissions/privapp-permissions-com.android.omadm.service.xml \
+    vendor/motorola/sdm660-common/proprietary/etc/permissions/privapp-permissions-com.android.sdm.plugins.sprintdm.xml:system/etc/permissions/privapp-permissions-com.android.sdm.plugins.sprintdm.xml \
     vendor/motorola/sdm660-common/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/motorola/sdm660-common/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/motorola/sdm660-common/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
