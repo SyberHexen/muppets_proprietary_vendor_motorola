@@ -1,0 +1,9 @@
+on boot && property:ro.boot.product.hardware.sku=nfc
+    start nfc_hal_service
+
+service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
+    interface android.hardware.nfc@1.2::INfc default
+    class hal
+    user nfc
+    group nfc
+    disabled
