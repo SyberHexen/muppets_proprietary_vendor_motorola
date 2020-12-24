@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ocean/proprietary/vendor/etc/acdbdata/na/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/na/Headset_cal.acdb \
     vendor/motorola/ocean/proprietary/vendor/etc/acdbdata/na/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/na/Speaker_cal.acdb \
     vendor/motorola/ocean/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
+    vendor/motorola/ocean/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service.st.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service.st.rc \
     vendor/motorola/ocean/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_csot_720p_622.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_csot_720p_622.xml \
     vendor/motorola/ocean/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_ofilm_720p_622.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_ofilm_720p_622.xml \
     vendor/motorola/ocean/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_720p_622.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_720p_622.xml \
