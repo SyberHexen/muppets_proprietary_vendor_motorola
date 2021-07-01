@@ -127,86 +127,86 @@
       },
       ".def_config":{
         "owner": "sns_tmd2755",
-        "pgain":{ "type": "flt", "ver": "1",
+        "pgain":{ "type": "flt", "ver": "0",
           "data": "1.0"
         },
-        "pgain2":{ "type": "flt", "ver": "1",
+        "pgain2":{ "type": "flt", "ver": "0",
           "data": "10.0"
         },
-        "ptime":{ "type": "flt", "ver": "1",
+        "ptime":{ "type": "flt", "ver": "0",
           "data": "2816.0"
         },
-        "ppulse":{ "type": "flt", "ver": "1",
+        "ppulse":{ "type": "flt", "ver": "0",
           "data": "40.0"
         },
-        "pldrive":{ "type": "flt", "ver": "1",
+        "pldrive":{ "type": "flt", "ver": "0",
           "data": "10.0"
         },
-        "ppulse_len":{ "type": "flt", "ver": "1",
+        "ppulse_len":{ "type": "flt", "ver": "0",
           "data": "40.0"
         },
-        "ppers":{ "type": "flt", "ver": "1",
+        "ppers":{ "type": "flt", "ver": "0",
           "data": "1.0"
         },
-        "pBinSearch":{ "type": "flt", "ver": "1",
+        "pBinSearch":{ "type": "flt", "ver": "0",
           "data": "64.0"
         },
-        "low_coef":{ "type": "flt", "ver": "1",
-          "data": "0.6"
+        "low_coef":{ "type": "flt", "ver": "0",
+          "data": "0.65"
         },
-        "high_coef":{ "type": "flt", "ver": "1",
+        "high_coef":{ "type": "flt", "ver": "0",
           "data": "0.9"
         }
       }
     },
     ".coefficient":{
       "owner": "sns_tmd2755",
-      "0":{ "type": "flt", "ver": "1",
+      "0":{ "type": "flt", "ver": "0",
         "data": "17669.3494"
       },
-      "1":{ "type": "flt", "ver": "1",
+      "1":{ "type": "flt", "ver": "0",
         "data": "0.6811"
       },
-      "2":{ "type": "flt", "ver": "1",
+      "2":{ "type": "flt", "ver": "0",
         "data": "0.5885"
       },
-      "3":{ "type": "flt", "ver": "1",
+      "3":{ "type": "flt", "ver": "0",
         "data": "0.2983"
       },
-      "4":{ "type": "flt", "ver": "1",
+      "4":{ "type": "flt", "ver": "0",
         "data": "1.0"
       },
-      "5":{ "type": "flt", "ver": "1",
+      "5":{ "type": "flt", "ver": "0",
         "data": "5.0061"
       },
-      "6":{ "type": "flt", "ver": "1",
+      "6":{ "type": "flt", "ver": "0",
         "data": "3161.462"
       },
-      "7":{ "type": "flt", "ver": "1",
+      "7":{ "type": "flt", "ver": "0",
         "data": "2535.176"
       },
-      "8":{ "type": "flt", "ver": "1",
+      "8":{ "type": "flt", "ver": "0",
         "data": "867.5845"
       },
-      "9":{ "type": "flt", "ver": "1",
+      "9":{ "type": "flt", "ver": "0",
         "data": "0.354"
       },
-      "10":{ "type": "flt", "ver": "1",
+      "10":{ "type": "flt", "ver": "0",
         "data": "1.0"
       },
-      "11":{ "type": "flt", "ver": "1",
+      "11":{ "type": "flt", "ver": "0",
         "data": "0.0"
       }
     },
     ".golden_value":{
       "owner": "sns_tmd2755",
-      "near_threshold":{ "type": "flt", "ver": "1",
+      "near_threshold":{ "type": "flt", "ver": "0",
         "data": "150"
       },
-      "far_threshold":{ "type": "flt", "ver": "1",
+      "far_threshold":{ "type": "flt", "ver": "0",
         "data": "100"
       },
-      "lux_scale":{ "type": "flt", "ver": "1",
+      "lux_scale":{ "type": "flt", "ver": "0",
         "data": "1.1"
       }
     }
